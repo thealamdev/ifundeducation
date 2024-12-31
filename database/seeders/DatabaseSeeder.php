@@ -20,13 +20,13 @@ class DatabaseSeeder extends Seeder {
         // ]);
 
         $this->call( [
-            // UserRoleSeeder::class,
-            // ClassificationSeeder::class,
-            // DegreeEnrolledSeeder::class,
-            // CountriesSeeder::class,
-            // statesSeeder::class,
-            // CitiesSeeder::class,
-            // UniversitiesSeeder::class,
+            UserRoleSeeder::class,
+            ClassificationSeeder::class,
+            DegreeEnrolledSeeder::class,
+            CountriesSeeder::class,
+            statesSeeder::class,
+            CitiesSeeder::class,
+            UniversitiesSeeder::class,
         ] );
 
     }
