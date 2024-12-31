@@ -1,0 +1,172 @@
+@media (min-width:992px) and (max-width:1199.98px){
+  .banner_caption {
+    width: 55%;
+  }
+  .banner_item{
+    background-size: auto !important;
+    height: 450px;
+  }
+  .fundraisers_card_bottom li {
+    padding: 0 16px;
+  }
+}
+
+
+@media (min-width:768px) and (max-width:991.98px){
+  .side_menu_bg{
+    width: 245px;
+  }
+  .logo img{
+    width: 160px;
+  }
+  
+  #iNav ul li a {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .banner_caption {
+    width: 60%;
+  }
+  .banner_caption h1 {
+    font-size: 36px;
+  }
+  .banner_item{
+    background-size: auto !important;
+    height: 400px;
+  }
+  .fundraisers_card_bottom li {
+    padding: 0 21px;
+  }
+  .block_inner {
+    margin: 10px 0;
+  }
+  .trust_text{
+    margin: 10px 0;
+  }
+  .logo {
+    margin-bottom: 0px;
+  }
+}
+
+
+@media (min-width:576px) and (max-width:767.98px){
+  h2{
+    font-size: 30px;
+  }
+  .banner_caption h1 {
+    font-size: 30px;
+  }
+  .banner_caption {
+    width: 70%;
+  }
+  .banner_item{
+   height: 350px;
+  }
+
+  .search_box button {
+    padding: 0px 10px;
+    font-size: 15px;
+  }
+  
+}
+
+
+@media(max-width:767.98px){
+  .account_content_area{
+    padding: 0;
+    padding-left: 10px;
+  }
+  .account_content_area h3 {
+      margin-top: 20px;
+      font-size: 18px;
+  }
+  .side_menu_bg{
+    width: auto;
+    padding-right: 0;
+  }
+  #iNav ul{
+    padding-bottom: 30px;
+  }
+  #iNav ul li:last-child a {
+    display: inline-block;
+  }
+  #iNav ul li ul{
+    right: auto;
+  }
+  #iNav ul li ul li a{
+    font-size: 12px;
+    display: block !important;
+  }
+  .banner_item{
+    background-size: auto !important;
+    background-position: left center !important;
+  }
+  .block_inner {
+    margin: 10px 0;
+  }
+  .trust_text{
+    margin: 10px 0;
+  }
+  .about_page_content {
+    padding: 30px 0;
+  }
+
+  .account_menu{
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 230px;
+    transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+    transform-origin: left;
+    -webkit-transform-origin: left;
+    transition: .4s;
+    -webkit-transition: .4s;
+  }
+
+  .account_content_area_form select, .account_content_area_form input {
+    margin-bottom: 10px;
+  }
+  
+
+}
+
+
+@media(max-width:575.98px){
+  .header_left p{
+    text-align: center;
+  }
+  .header_right ul {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .logo img{
+    width: 160px;
+  }
+  .banner_caption {
+    width: 100%;
+  }
+  .banner_caption h1 {
+    font-size: 25px;
+  }
+  .banner_item {
+    height: 330px;
+    
+  }
+  .search_box button {
+    padding: 0 10px;
+    font-size: 14px;
+  }
+  .section_header h2 {
+    font-size: 30px;
+  }
+  #fundraisers .section_header a {
+    padding: 2px 8px;
+  }
+  .fundraisers_card_bottom li {
+    padding: 0 15px;
+  }
+}
